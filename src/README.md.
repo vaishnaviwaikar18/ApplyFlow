@@ -1,0 +1,110 @@
+# ApplyFlow – Smart Job Application Tracker
+
+A modern and responsive job application tracking dashboard built with React and Vite. ApplyFlow helps job seekers organize applications, manage interviews, and understand their job search progress through analytics.
+
+## Live Demo
+
+**[Visit ApplyFlow](https://apply-flow-zeta.vercel.app/)**
+
+## GitHub Repository
+
+**[View Source Code](https://github.com/vaishnaviwaikar18/ApplyFlow)**
+
+## Features
+
+- **Dashboard:** View application statistics and job search progress.
+- **Application Management:** Add, edit, delete, search, and filter job applications.
+- **Interview Management:** Schedule interviews, add meeting details, and update interview statuses.
+- **Analytics Dashboard:** Visualize application activity, status distribution, and performance metrics.
+- **Local Storage:** Keep application and interview records saved in the browser across refreshes.
+- **Responsive Interface:** Clean dashboard layout designed for different screen sizes.
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| React | Frontend development |
+| Vite | Development and build tooling |
+| Tailwind CSS | Styling and responsive design |
+| JavaScript | Application logic |
+| Recharts | Data visualization |
+| Lucide React | Icons |
+| LocalStorage | Browser-based data persistence |
+| Vercel | Deployment |
+| Git & GitHub | Version control |
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vaishnaviwaikar18/ApplyFlow.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd ApplyFlow
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+### 5. Build for production
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```text
+ApplyFlow/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Sidebar.jsx
+│   │   ├── StatsCard.jsx
+│   │   └── AddApplication.jsx
+│   ├── pages/
+│   │   ├── Dashboard.jsx
+│   │   ├── Applications.jsx
+│   │   ├── Interviews.jsx
+│   │   └── Analytics.jsx
+│   ├── App.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## Future Improvements
+
+- Backend integration using Node.js and Express.
+- Database integration using MongoDB.
+- User authentication and personalized dashboards.
+- Cloud synchronization across devices.
+- Email reminders for upcoming interviews.
+- Advanced job search analytics.
+
+## Developer
+
+**Vaishnavi Waikar**
+
+- GitHub: [vaishnaviwaikar18](https://github.com/vaishnaviwaikar18)
+- LinkedIn: [Vaishnavi Waikar](https://www.linkedin.com/in/vaishnavi-waikar-8973832b1)
+
+---
+
+*Built with React, creativity, and a focus on making job searching more organized.*
